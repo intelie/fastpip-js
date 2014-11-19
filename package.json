@@ -1,6 +1,6 @@
 {
   "name": "fastpip",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Sequence segmentation based on Turning Points and Perceptually Important Points",
   "main": "src/index.js",
   "repository": {
