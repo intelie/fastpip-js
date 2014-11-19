@@ -1,0 +1,20 @@
+{
+  "name": "fastpip",
+  "version": "0.1.0",
+  "description": "Sequence segmentation based on Turning Points and Perceptually Important Points",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/intelie/fastpip-js"
+  },
+  "keywords": [
+    "pip",
+    "turning points"
+  ],
+  "author": "Intelie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/intelie/fastpip-js/issues"
+  },
+  "homepage": "https://github.com/intelie/fastpip-js"
+}
