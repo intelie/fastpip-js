@@ -91,9 +91,9 @@ var pointInSameTrend = function(i, data, prop) {
   return p === nextTwo && nextOne === nextThree;
 };
 
-if(window){
+if(typeof window !== 'undefined'){
   window.turningPoints = turningPoints;
 }
-else if(module && module.exports){
+else if(typeof module !== 'undefined' && typeof module.exports !== 'undefined'){
   module.exports = turningPoints;
 }

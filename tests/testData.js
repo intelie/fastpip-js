@@ -13627,9 +13627,9 @@ var array = [
   }
 ];
 
-if(window){
+if(typeof window !== 'undefined'){
   window.testData = array;
 }
-else if(module && module.exports){
+else if(typeof module !== 'undefined' && typeof module.exports !== 'undefined'){
   module.exports = array;
 }

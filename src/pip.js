@@ -51,10 +51,10 @@ var pip = function(data, k, xProp, yProp) {
   return heap.heap;
 };
 
-if(window){
+if(typeof window !== 'undefined'){
   window.pip = pip;
 }
-else if(module && module.exports){
+else if(typeof module !== 'undefined' && typeof module.exports !== 'undefined'){
   module.exports = pip;
 }
 
