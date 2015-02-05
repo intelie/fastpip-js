@@ -193,3 +193,4 @@ if(typeof window !== 'undefined'){
 else if(typeof module !== 'undefined' && typeof module.exports !== 'undefined'){
   module.exports = pip;
 }
+
