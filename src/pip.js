@@ -67,7 +67,7 @@ var PipHeap = function(distance) {
 
 PipHeap.prototype.createHeap = function(n) {
     var list = new Array(n);
-    for(var i=0; i < n; i++) 
+    for(var i=0; i < n; i++)
         list[i] = new PipItem(i, this);
     return list;
 };
@@ -120,7 +120,7 @@ PipHeap.prototype.bubbleUp = function(n) {
 PipHeap.prototype.bubbleDown = function(n) {
     for (var k; (k = this.min3(n, n * 2 + 1, n * 2 + 2)) != n && k < this.size; )
         n = this.swap(n, k);
-        
+
     return n;
 };
 
