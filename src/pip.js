@@ -93,7 +93,7 @@ PipHeap.prototype.add = function(value) {
 };
 
 PipHeap.prototype.minValue = function() {
-    return heap[0].cache;
+    return this.heap[0].cache;
 };
 
 PipHeap.prototype.removeMin = function() {
